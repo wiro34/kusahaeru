@@ -7,11 +7,11 @@ var $ = require('gulp-load-plugins')();
 gulp.task('styles', function () {
   var sassOptions = {
     style: 'expanded',
-    includePaths: 'src'
+    includePaths: paths.app
   };
 
   return gulp.src([
-    paths.src + '/styles/**/*.scss',
+    paths.app + '/styles/**/*.scss',
     'bower_components/**/*.scss'
   ])
     .pipe($.sass(sassOptions))

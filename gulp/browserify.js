@@ -9,7 +9,7 @@ var $ = require('gulp-load-plugins')({
 
 gulp.task('browserify', function () {
   return browserify({
-    entries: ['./' + paths.src + '/scripts/main.coffee'],
+    entries: ['./' + paths.app + '/scripts/main.coffee'],
     extensions: ['.coffee', '.js'],
     debug: true
   })

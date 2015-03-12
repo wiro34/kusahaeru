@@ -47,7 +47,7 @@ gulp.task('html', ['inject'], function () {
 });
 
 gulp.task('images', function () {
-  return gulp.src(paths.src + '/assets/images/**/*')
+  return gulp.src(paths.app + '/assets/images/**/*')
     .pipe(gulp.dest(paths.dist + '/assets/images/'));
 });
 
@@ -59,7 +59,7 @@ gulp.task('fonts', function () {
 });
 
 gulp.task('misc', function () {
-  return gulp.src(paths.src + '/**/*.ico')
+  return gulp.src(paths.app + '/**/*.ico')
     .pipe(gulp.dest(paths.dist + '/'));
 });
 

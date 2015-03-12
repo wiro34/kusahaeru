@@ -1,7 +1,9 @@
 {
   "name": "kusahaeru",
   "version": "0.0.0",
-  "dependencies": {},
+  "dependencies": {
+    "lodash": "^3.5.0"
+  },
   "devDependencies": {
     "browser-sync": "~1.7.1",
     "browserify": "^9.0.3",

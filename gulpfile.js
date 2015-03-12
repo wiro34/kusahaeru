@@ -3,8 +3,9 @@
 var gulp = require('gulp');
 
 gulp.paths = {
-  src: 'src',
+  app: 'app',
   dist: 'dist',
+  assets: 'assets',
   tmp: '.tmp',
   e2e: 'e2e'
 };
